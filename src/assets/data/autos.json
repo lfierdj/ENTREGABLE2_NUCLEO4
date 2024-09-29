@@ -1,0 +1,141 @@
+{
+  "autos": [
+    {
+      "id": "1",
+      "nombre": "Corolla",
+      "modelo": "Sedán 2022",
+      "marca": "Toyota",
+      "precio": 1,
+      "color": "azul",
+      "duenos_anteriores": [
+        "Carlos Pérez",
+        "Ana González",
+        "Kerly Cuenca"
+      ],
+      "imagen": "https://noticias.coches.com/wp-content/uploads/2022/06/Toyota-Corolla-Hybrid-Sedan-Advance-2023-2.jpg"
+    },
+    {
+      "id": "2",
+      "nombre": "CR-V",
+      "modelo": "SUV 2023",
+      "marca": "Honda",
+      "precio": 30000000,
+      "color": "Negro",
+      "duenos_anteriores": [
+        "Juan Martínez"
+      ],
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyhMZW6lQeglb64Wlv9VGbl8tE9CS3j_zg9Q&s"
+    },
+    {
+      "id": "3",
+      "nombre": "Serie 4 Coupé",
+      "modelo": "Coupé 2021",
+      "marca": "BMW",
+      "precio": 50000000,
+      "color": "Azul",
+      "duenos_anteriores": [
+        "María López",
+        "Santiago Fernández"
+      ],
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/9/90/2021_BMW_420i_M_Sport_Automatic_2.0.jpg"
+    },
+    {
+      "id": "4",
+      "nombre": "Clase C",
+      "modelo": "Convertible 2020",
+      "marca": "Mercedes-Benz",
+      "precio": 65000000,
+      "color": "Blanco",
+      "duenos_anteriores": [
+        "Laura Ramírez"
+      ],
+      "imagen": "https://static.oneclickdrive.com/uploads/mobcars/Mercedes-Benz-C300-Convertible-2020_8737_3633549236-1_8737__small.jpg"
+    },
+    {
+      "id": "5",
+      "nombre": "Ranger",
+      "modelo": "Camioneta 2021",
+      "marca": "Ford",
+      "precio": 40000000,
+      "color": "Gris",
+      "duenos_anteriores": [
+        "Pedro Sánchez",
+        "David Romero"
+      ],
+      "imagen": "https://www.rutamotor.com/wp-content/uploads/2023/02/Pick-up-Rutamotor.jpg"
+    },
+    {
+      "id": "6",
+      "nombre": "Golf",
+      "modelo": "Hatchback 2023",
+      "marca": "Volkswagen",
+      "precio": 22000000,
+      "color": "Verde",
+      "duenos_anteriores": [
+        "Sandra Vélez"
+      ],
+      "imagen": "https://automotiva.com.ar/wp-content/uploads/2024/02/Renault_5_E-Tech_2025-3.jpg"
+    },
+    {
+      "id": "7",
+      "nombre": "911 Turbo",
+      "modelo": "Deportivo 2022",
+      "marca": "Porsche",
+      "precio": 90000000,
+      "color": "Rojo",
+      "duenos_anteriores": [
+        "Roberto Vargas",
+        "Andrés Pérez"
+      ],
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Qu0zrOjtSrcN0QP-MFt9hsO5hNL1HiWAMg&s"
+    },
+    {
+      "id": "8",
+      "nombre": "Model X",
+      "modelo": "SUV Eléctrico 2023",
+      "marca": "Tesla",
+      "precio": 7,
+      "color": "Negro",
+      "duenos_anteriores": [
+        "Aida Gurrero",
+        "Klever Cuenca"
+      ],
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx9mfIk0dtXM_FjZG4Pr4wq54ZE31VyvFfOw&s"
+    },
+    {
+      "id": "9",
+      "nombre": "Elantra",
+      "modelo": "Compacto 2022",
+      "marca": "Hyundai",
+      "precio": 20000000,
+      "color": "Rojo",
+      "duenos_anteriores": [
+        "Luis Rodríguez"
+      ],
+      "imagen": "https://img.remediosdigitales.com/9ac6aa/chevrolet-captiva/450_1000.jpeg"
+    },
+    {
+      "id": "10",
+      "nombre": "Pacifica",
+      "modelo": "Monovolumen 2020",
+      "marca": "Chrysler",
+      "precio": 35000000,
+      "color": "Plateado",
+      "duenos_anteriores": [
+        "Patricia Gómez",
+        "Fernando Jiménez"
+      ],
+      "imagen": "https://a.ccdn.es/cnet/contents/media/resources/2022/1/1290891.jpg/0_0_1280_720/"
+    },
+    {
+      "id": "11",
+      "nombre": "ilil",
+      "modelo": "chev",
+      "marca": "nissan",
+      "precio": 285217,
+      "color": "marron",
+      "duenos_anteriores": "Alejandro Cuenca",
+      "imagen": "https://www.nissan-cdn.net/content/dam/Nissan/ec/esto-es-nissan/nissan-2023-esto_es_nissan-electric_and_hybrid-preview-d.jpg.ximg.l_full_m.smart.jpg"
+    }
+  ]
+}

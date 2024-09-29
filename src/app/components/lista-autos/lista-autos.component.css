@@ -1,0 +1,84 @@
+/* Estilo general del contenedor */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  color: #0056b3;
+  margin-bottom: 20px;
+}
+
+/* Etiquetas de entrada */
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Entradas de número */
+input[type="number"] {
+  width: calc(50% - 10px);
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+/* Estilo de las tablas */
+.table {
+  width: 100%;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+/* Estilos de las celdas de tabla */
+td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+/* Estilo de la imagen del auto */
+img {
+  border-radius: 5px;
+}
+
+/* Botón "Ver más detalles" */
+.btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Efecto de hover en el botón */
+.btn:hover {
+  background-color: #d62839;
+}
+
+/* Estilo para la tabla */
+.table-bordered td {
+  border: 1px solid #ddd;
+}
+
+/* Contenedor para el contenido de la tabla */
+.table tr {
+  transition: background-color 0.3s;
+}
+
+/* Efecto hover en las filas de la tabla */
+.table tr:hover {
+  background-color: #f1f1f1;
+}

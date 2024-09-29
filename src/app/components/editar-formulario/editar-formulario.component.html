@@ -1,0 +1,36 @@
+<form (ngSubmit)="editar(formulario)" #formulario="ngForm">
+  <h2 style="text-align: center;">Formulario de Ingreso de Autos</h2>
+
+  <label for="id">ID:</label>
+  <input type="text" id="id" name="id" [(ngModel)]="carros.id">
+
+  <label for="nombre">Nombre:</label>
+  <input type="text" id="nombre" name="nombre" [(ngModel)]="carros.nombre">
+
+  <label for="modelo">Modelo:</label>
+  <input type="text" id="modelo" name="modelo" [(ngModel)]="carros.modelo">
+
+  <label for="marca">Marca:</label>
+  <input type="text" id="marca" name="marca" [(ngModel)]="carros.marca">
+
+  <label for="precio">Precio:</label>
+  <input type="number" id="precio" name="precio" [(ngModel)]="carros.precio">
+
+  <label for="color">Color:</label>
+  <input type="text" id="color" name="color" [(ngModel)]="carros.color">
+
+  <label for="duenos_anteriores">Dueños Anteriores:</label>
+  <ul id="lista-duenos">
+
+  </ul>
+
+  <input type="text" placeholder="Agregar nuevo dueño" [(ngModel)]="nuevoDueno" name="nuevoDueno">
+  <button type="button" (click)="agregarDueno()">Agregar Dueño</button>
+
+  <label for="imagen">URL de Imagen:</label>
+  <input type="url" id="imagen" name="imagen" [(ngModel)]="carros.imagen">
+
+  <button type="submit">Guardar Auto</button>
+
+  <img id="preview" class="img-preview" [src]="carros.imagen" alt="Vista previa de la imagen" style="display:block;">
+</form>

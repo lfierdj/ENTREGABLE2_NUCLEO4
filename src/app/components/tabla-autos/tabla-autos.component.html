@@ -1,0 +1,33 @@
+<a href="formulario">Agregar nuevo auto</a>
+<table class="table table-dark table-striped">
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+      <th>Modelo</th>
+      <th>Marca</th>
+      <th>Precio</th>
+      <th>Color</th>
+      <th>Dueños Anteriores</th>
+      <th>Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (item of carros; track item) {
+      <tr>
+        <td>{{item.id}}</td>
+        <td>{{item.nombre}}</td>
+        <td>{{item.modelo}}</td>
+        <td>{{item.marca}}</td>
+        <td>{{item.precio}}</td>
+        <td>{{item.color}}</td>
+        <td>{{item.duenos_anteriores}}</td>
+        <td><button (click)="eliminar(item.id)" class="btn btn-danger">Eliminar</button>
+          </td>
+          <td><button [routerLink]="['/editar-formulario',item.id]" class="btn btn-primary">Editar</button>
+          </td>
+
+      </tr>
+    }
+  </tbody>
+</table>

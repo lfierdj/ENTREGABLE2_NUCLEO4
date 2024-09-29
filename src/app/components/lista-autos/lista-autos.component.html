@@ -1,0 +1,32 @@
+<nav class="container">
+  <h1>Búsqueda por Rango de Precio</h1>
+
+  <label for="PrecioMinimo">Precio Mínimo:</label>
+  <input type="number" [(ngModel)]="PrecioMinimo" name = "PrecioMinimo" [ngModelOptions]="{standalone: true}">
+
+  <label for="PrecioMaximo">Precio Máximo:</label>
+  <input type="number" [(ngModel)]="PrecioMaximo" name = "PrecioMaximo" [ngModelOptions]="{standalone: true}">
+
+  <div class="container">
+    @for (item of carros; track item) {
+      @if (item.precio >= PrecioMinimo && item.precio <= PrecioMaximo) {
+        <table class="table table-bordered" style="width: 100%;">
+          <tr>
+            <td style="width: 150px;">
+              <img src="{{item.imagen}}" alt="Car image" style="width: 100%;">
+            </td>
+            <td>
+              <strong>Marca:</strong> {{item.marca}}
+            </td>
+            <td>
+              <strong>Precio:</strong> ${{item.precio}}
+            </td>
+            <td style="text-align: center; width: 150px;">
+              <button class="btn btn-primary" [routerLink]="['/detalles', item.id]">Ver más detalles</button>
+            </td>
+          </tr>
+        </table>
+      }
+    }
+  </div>
+</nav>
